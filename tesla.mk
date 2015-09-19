@@ -28,8 +28,8 @@ TARGET_PREBUILT_KERNEL := false
 PRODUCT_PACKAGES += \
     com.android.nfc_extras
 
-# Tesla Overlays
-DEVICE_PACKAGE_OVERLAYS += device/htc/flounder/overlay-tesla
+# CM Overlays
+DEVICE_PACKAGE_OVERLAYS += device/htc/flounder/overlay-cm
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=flounder \
