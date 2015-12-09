@@ -160,6 +160,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf
 
+# apns.conf and old-apns.conf
+PRODUCT_COPY_FILES += \
+    device/htc/flounder/apns-conf.xml:system/etc/apns-conf.xml \
+    device/htc/flounder/old-apns-conf.xml:system/etc/old-apns-conf.xml
+
 PRODUCT_AAPT_CONFIG := normal large xlarge hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
