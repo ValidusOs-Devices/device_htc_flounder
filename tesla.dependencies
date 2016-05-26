@@ -4,5 +4,10 @@
    "repository":  "Tesla-M-Devices/kernel_htc_flounder",
    "target_path": "kernel/htc/flounder",
    "branch":      "6.0-mr2"
- }
+ },
+ {
+   "remote": 	  "github",
+   "repository":  "PureNexusProject/proprietary_vendor_htc",
+   "target_path": "vendor/htc",
+   "revision":    "mm2"
 ]
