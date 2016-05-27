@@ -10,4 +10,5 @@
    "repository":  "PureNexusProject/proprietary_vendor_htc",
    "target_path": "vendor/htc",
    "revision":    "mm2"
+ }
 ]
