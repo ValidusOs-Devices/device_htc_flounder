@@ -1,9 +1,9 @@
 [
  {
    "remote":       "github",
-   "repository":   "SlimRoms/kernel_htc_flounder",
+   "repository":   "GZR-Kernels/kernel_htc_flounder",
    "target_path":  "kernel/htc/flounder",
-   "branch":       "ng7.0"
+   "branch":       "n7.0"
  },
  {
    "remote":       "github",
