@@ -6,7 +6,7 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1536
 
 # Inherit some common Tesla stuff.
-$(call inherit-product, vendor/tesla/config/common_full_phone.mk)
+$(call inherit-product, vendor/tesla/config/common_full_tablet_wifionly.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
@@ -23,5 +23,5 @@ PRODUCT_MODEL := Nexus 9
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=flounder \
-    BUILD_FINGERPRINT=google/volantis/flounder:7.0/NRD90R/3141966:user/release-keys \
-    PRIVATE_BUILD_DESC="flounder-user 7.0 NRD90R 3141966 release-keys"
+    BUILD_FINGERPRINT=google/volantis/flounder:7.0/NRD91D/3234828:user/release-keys \
+    PRIVATE_BUILD_DESC="volantis-user 7.0 NRD91D 3234828 release-keys"

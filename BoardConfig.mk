@@ -37,6 +37,15 @@ TARGET_KERNEL_CONFIG := flounder_defconfig
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_CMDLINE := androidboot.selinux=permissive
 
+# Enable dexpreopt to speed boot time
+ifeq ($(HOST_OS),linux)
+  ifeq ($(call match-word-in-list,$(TARGET_BUILD_VARIANT),user),true)
+    ifeq ($(WITH_DEXPREOPT),)
+      WITH_DEXPREOPT := true
+    endif
+  endif
+endif
+
 # Disable emulator for "make dist" until there is a 64-bit qemu kernel
 BUILD_EMULATOR := false
 
@@ -58,6 +67,7 @@ BOARD_DISABLE_TRIPLE_BUFFERED_DISPLAY_SURFACES := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
 TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2782920704
 # BOARD_USERDATAIMAGE_PARTITION_SIZE := 13287555072
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
@@ -119,6 +129,9 @@ endif
 WITH_DEXPREOPT_BOOT_IMG_ONLY := true
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/flounder
+
+# Enable workaround for slow rom flash
+BOARD_SUPPRESS_SECURE_ERASE := true
 
 ART_USE_HSPACE_COMPACT=true
 
