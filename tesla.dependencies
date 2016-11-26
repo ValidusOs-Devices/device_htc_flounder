@@ -1,9 +1,9 @@
 [
  {
    "remote":       "github",
-   "repository":   "GZR-Kernels/kernel_htc_flounder",
+   "repository":   "GZR-Kernels/fusebox_kernel_htc_flounder",
    "target_path":  "kernel/htc/flounder",
-   "branch":       "n7.0"
+   "branch":       "n7.1"
  },
  {
    "remote":       "github",
