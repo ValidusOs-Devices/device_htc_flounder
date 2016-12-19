@@ -14,8 +14,6 @@ $(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/htc/flounder/aosp_flounder.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/htc/flounder/overlay-slim
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := tesla_flounder
 PRODUCT_BRAND := google
