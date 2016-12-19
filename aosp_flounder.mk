@@ -32,9 +32,9 @@ $(call inherit-product, device/htc/flounder/product.mk)
 $(call inherit-product-if-exists, vendor/htc/flounder/device-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
-PRODUCT_NAME := aosp_flounder_64_only
+PRODUCT_NAME := aosp_flounder
 PRODUCT_DEVICE := flounder
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on Flounder (64-bit only)
+PRODUCT_MODEL := AOSP on Flounder
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_RESTRICT_VENDOR_FILES := false
