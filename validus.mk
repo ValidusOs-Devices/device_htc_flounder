@@ -16,7 +16,7 @@ $(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
 $(call inherit-product, device/htc/flounder/aosp_flounder.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := tesla_flounder
+PRODUCT_NAME := validus_flounder
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 9
 
