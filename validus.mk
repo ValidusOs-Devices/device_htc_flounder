@@ -10,7 +10,7 @@ $(call inherit-product, vendor/validus/config/common_full_tablet_wifionly.mk)
 $(call inherit-product, vendor/validus/config/caf_fw.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/flounder/aosp_flounder.mk)
