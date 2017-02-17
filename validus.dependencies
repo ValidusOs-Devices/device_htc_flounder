@@ -1,14 +1,14 @@
 [
  {
    "remote":       "github",
-   "repository":   "GZR-Kernels/fusebox_kernel_htc_flounder",
+   "repository":   "GZR-Kernels/kernel_htc_flounder",
    "target_path":  "kernel/htc/flounder",
    "branch":       "n7.1"
  },
  {
    "remote":       "github",
-   "repository":   "TheMuppets/proprietary_vendor_htc",
+   "repository":   "DirtyUnicorns/proprietary_vendor_htc",
    "target_path":  "vendor/htc",
-   "branch":       "cm-14.1"
+   "branch":       "n7x"
  }
 ]
