@@ -24,3 +24,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=flounder \
     BUILD_FINGERPRINT=google/volantis/flounder:7.1.1/N4F26Q/3623443:user/release-keys \
     PRIVATE_BUILD_DESC="flounder-user 7.1.1 N4F26Q 3623443 release-keys"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="Filip A(slebit)"
