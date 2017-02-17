@@ -22,8 +22,5 @@ PRODUCT_MODEL := Nexus 9
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=flounder \
-    BUILD_FINGERPRINT=google/volantis/flounder:7.1.1/NMF26F/3425388:user/release-keys \
-PRIVATE_BUILD_DESC="flounder-user 7.1.1 NMF26F 3425388 release-keys"
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-	DEVICE_MAINTAINERS="Dustin Winings(D-FUSE)"
+    BUILD_FINGERPRINT=google/volantis/flounder:7.1.1/N4F26Q/3623443:user/release-keys \
+    PRIVATE_BUILD_DESC="flounder-user 7.1.1 N4F26Q 3623443 release-keys"
