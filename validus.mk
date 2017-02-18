@@ -2,8 +2,8 @@
 PRODUCT_RELEASE_NAME := flounder
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1536
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1280
 
 # Inherit some common Tesla stuff.
 $(call inherit-product, vendor/validus/config/common_full_tablet_wifionly.mk)
