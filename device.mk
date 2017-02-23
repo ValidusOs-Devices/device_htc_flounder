@@ -143,8 +143,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/gps/qct/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     $(LOCAL_PATH)/gps/qct/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so
 
-# System properties
--include $(LOCAL_PATH)/system_prop.mk
 
 # NFC feature + config files
 PRODUCT_COPY_FILES += \
