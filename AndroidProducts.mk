@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/tesla.mk \
+	$(LOCAL_DIR)/validus.mk \
 	$(LOCAL_DIR)/aosp_flounder.mk

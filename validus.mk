@@ -5,8 +5,8 @@ PRODUCT_RELEASE_NAME := flounder
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1280
 
-# Inherit some common Tesla stuff.
-$(call inherit-product, vendor/validus/config/common_full_tablet_wifionly.mk)
+# Inherit some common Validus stuff.
+$(call inherit-product, vendor/validus/config/common_full_phone.mk)
 $(call inherit-product, vendor/validus/config/caf_fw.mk)
 
 # Enhanced NFC
