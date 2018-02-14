@@ -1,8 +1,8 @@
 # Lineage specific changes
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2048
-TARGET_SCREEN_WIDTH := 1536
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1280
 
 # Inherit some common Validus stuff
 $(call inherit-product, vendor/validus/config/common_full_tablet_wifionly.mk)
