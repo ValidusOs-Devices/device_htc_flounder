@@ -35,3 +35,6 @@ BUILD_FINGERPRINT := google/volantis/flounder:7.1.1/N9F27M/4333998:user/release-
 PRODUCT_NAME := validus_flounder
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 9
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="Filip A(slebit)"
