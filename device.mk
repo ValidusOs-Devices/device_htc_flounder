@@ -151,6 +151,12 @@ DEVICE_PACKAGE_OVERLAYS := \
     $(LOCAL_PATH)/overlay
 endif
 
+# set default USB configuration
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    sys.usb.config=mtp,adb \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0 
+
 # NFC packages
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0-impl-bcm \
