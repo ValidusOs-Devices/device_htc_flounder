@@ -21,9 +21,6 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 PRODUCT_PACKAGES += \
     com.android.nfc_extras
 
-# Lineage overlays
-DEVICE_PACKAGE_OVERLAYS += device/htc/flounder/overlay-lineage
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=flounder \
     PRIVATE_BUILD_DESC="volantis-user 7.1.1 N9F27M 4333998 release-keys"
