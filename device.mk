@@ -333,9 +333,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     device/htc/flounder/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy
 
-# In userdebug, add minidebug info the the boot image and the system server to support
-# diagnosing native crashes.
-ifneq (,$(filter userdebug, $(TARGET_BUILD_VARIANT)))
+# Add minidebug info the the boot image and the system server to support
+# diagnosing native crashes, only on eng builds.
+ifeq ($(TARGET_BUILD_VARIANT),eng)
     # Boot image.
     PRODUCT_DEX_PREOPT_BOOT_FLAGS += --generate-mini-debug-info
     # System server and some of its services.
