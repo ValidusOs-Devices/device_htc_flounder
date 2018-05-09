@@ -34,4 +34,4 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 9
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	DEVICE_MAINTAINERS="Filip A(slebit)"
+	DEVICE_MAINTAINERS="Filip A (slebit), Martin Coulon (Martinusbe)"
