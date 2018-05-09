@@ -7,8 +7,8 @@
  },
  {
    "remote":       "github",
-   "repository":   "TheMuppets/proprietary_vendor_htc",
+   "repository":   "BigTopKrazies/proprietary_vendor_htc",
    "target_path":  "vendor/htc",
-   "branch":       "lineage-15.1"
+   "branch":       "8.1"
  }
 ]
